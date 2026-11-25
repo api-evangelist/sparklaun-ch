@@ -1,4 +1,4 @@
-# sparklaun-ch
+# SparkLaunch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sparklaun-ch is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sparklaun.ch/
+SparkLaunch provides an operating system for fundable startups, offering tools to incorporate a company, manage equity, track investor relations, and automate compliance. The platform combines AI-driven workflows with a unified dashboard, enabling founders to launch, grow, and maintain their businesses efficiently. It includes features such as cap table management, safe ownership calculators, and integration with popular services, aiming to democratize entrepreneurship for founders worldwide.
+
+**Areas:** Startup · Incorporation · Equity Management · AI · Fundraising
+
+## SparkLaunch on APIs.io
+
+Everything profiled for SparkLaunch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sparklaun-ch/](https://apis.io/providers/sparklaun-ch/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [SparkLaunch Compare API](https://apis.io/apis/sparklaun-ch/sparklaun-ch-compare-api/) — The Compare API from SparkLaunch — 2 operation(s) for compare.
+- [SparkLaunch Facts.json API](https://apis.io/apis/sparklaun-ch/sparklaun-ch-facts-json-api/) — The Facts.json API from SparkLaunch — 1 operation(s) for facts.json.
+- [SparkLaunch Features API](https://apis.io/apis/sparklaun-ch/sparklaun-ch-features-api/) — The Features API from SparkLaunch — 1 operation(s) for features.
+- [SparkLaunch Pricing API](https://apis.io/apis/sparklaun-ch/sparklaun-ch-pricing-api/) — The Pricing API from SparkLaunch — 1 operation(s) for pricing.
+- [SparkLaunch Public API](https://apis.io/apis/sparklaun-ch/sparklaun-ch-public-api/) — The Public API from SparkLaunch — 5 operation(s) for public.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SparkLaunch Agentic Access](https://apis.io/agentic-access/sparklaun-ch/sparklaun-ch-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GuideSummary](https://apis.io/schemas/sparklaun-ch/sparklaun-ch-guide-summary/)
+- [PublicApiIndexResponse](https://apis.io/schemas/sparklaun-ch/sparklaun-ch-public-api-index-response/)
+- [PublicDiscoveryItem](https://apis.io/schemas/sparklaun-ch/sparklaun-ch-public-discovery-item/)
+- [PublicFactsEnvelope](https://apis.io/schemas/sparklaun-ch/sparklaun-ch-public-facts-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sparklaun Ch Context](https://apis.io/jsonld/sparklaun-ch/sparklaun-ch-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SparkLaunch API Rules](https://apis.io/rules/sparklaun-ch/sparklaun-ch-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SparkLaunch Domain Security](https://apis.io/security/sparklaun-ch/sparklaun-ch-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SparkLaunch Plans Pricing](https://apis.io/plans/sparklaun-ch/sparklaun-ch-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sparklaun.ch/)
+- [Documentation](https://sparklaun.ch/help)
+- [API reference](https://sparklaun.ch/llms.txt)
+- [Pricing](https://sparklaun.ch/pricing)
+- [Blog](https://sparklaun.ch/blog)
+- [Terms of service](https://sparklaun.ch/terms-and-conditions)
+- [Privacy policy](https://sparklaun.ch/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 44.1** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 51.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 48.5 |
+
+**Agent readiness 46.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sparklaun-ch/](https://apis.io/providers/sparklaun-ch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SparkLaunch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sparklaun-ch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
